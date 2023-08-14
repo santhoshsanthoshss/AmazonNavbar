@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: inherit;
+}
+html,
+body {
+  width: 100%;
+}
+.container {
+  width: 100%;
+  height: 63px;
+  background-color: #131a22;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container img {
+  width: 115px;
+  height: 35px;
+  padding: 2px;
+  /* border: 2px solid red; */
+}
+.location {
+  /* border: 2px solid red; */
+  width: 162px;
+  display: flex;
+  /* margin-top: 30px; */
+}
+.selectaddress i {
+  padding: 15px 10px 10px 10px;
+  height: 100%;
+  font-size: 25px;
+  color: white;
+}
+.texthello p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.744);
+  margin-top: 5px;
+}
+.texthello {
+  width: 100%;
+
+  /* border: 2px solid violet; */
+}
+
+.texthello h5 {
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+.inputcontainer {
+  display: flex;
+  /* border: 2px solid lightgray; */
+  /* border-radius: 5px; */
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.selectoption .selections {
+  height: 35px;
+  width: 57px;
+  /* border: 2px solid chartreuse; */
+  background-color: lightgray;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 8px;
+}
+.inputbox {
+  height: 35px;
+  width: 650px;
+  padding: 13px;
+  position: absolute;
+  left: 54px;
+}
+
+.iframe {
+  background-color: #ff9900;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 50px;
+  height: 35px;
+  padding: 7px 8px 3px 13px;
+  border: 2px solid black;
+  position: absolute;
+  right: 8px;
+  border: none;
+}
+.fa-search {
+  margin-left: 6px;
+}
+
+input::placeholder {
+  font-size: 15px;
+  color: rgba(128, 128, 128, 0.676);
+  font-weight: bold;
+}
+
+.flag1 img {
+  width: 26.6px;
+  height: 20px;
+}
+.flag {
+  /* border: 2px solid blue; */
+  width: 85px;
+  height: 41px;
+  display: flex;
+  padding: 10px;
+}
+/* .enoption {
+  font-size: 6px;
+  padding: 3px;
+} */
+.fa-caret-down {
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.708);
+  margin-left: 5px;
+}
+.hellosign {
+  /* border: 2px solid blue; */
+  width: 9%;
+  /* margin-bottom: 7px; */
+}
+.hellosign p {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.endiv {
+  color: white;
+  font-size: 17px;
+  margin-left: 3px;
+}
+.hellosign h5 {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+.returns {
+  /* border: 2px solid yellow; */
+  width: 5%;
+}
+.returns h5 {
+  color: white;
+}
+.returns p {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.carts {
+  display: flex;
+  /* border: 2px solid blue; */
+  width: 6%;
+  /* border: 2px solid red; */
+}
+.shoppingicon i {
+  font-size: 36px;
+  color: white;
+}
+.cartname h5 {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-left: 5px;
+  color: white;
+}
+.card-down {
+  margin-top: 18px;
+  margin-left: -34px;
+}
+
+/* second Menu */
+
+.hambmenu {
+  width: 100%;
+  height: 47px;
+  background-color: #232f3e;
+  padding: 10px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.fa-bars {
+  color: white;
+  font-size: 19px;
+}
+.allmenu {
+  /* border: 1px solid red; */
+  width: 49px;
+  padding: 5px;
+  display: flex;
+  color: white;
+  font-size: 18px;
+  margin-left: 8px;
+  justify-content: space-between;
+}
+.amazon-list {
+  width: 120px;
+  /* border: 2px solid red; */
+}
+
+.sell {
+  width: 38px;
+  /* border: 2px solid red; */
+}
+.bestsellers {
+  width: 80px;
+}
+.Today {
+  width: 99px;
+}
+.mobiles {
+  width: 68px;
+}
+.newrelease {
+  width: 99px;
+}
+.Customer {
+  width: 127px;
+}
+.Prime {
+  display: flex;
+  width: 67px;
+  align-self: center;
+  margin-top: 2px;
+}
+.Electonics {
+  width: 86px;
+}
+.Homekitchen {
+  width: 120px;
+}
+.Fashion {
+  width: 90px;
+}
+.alllist {
+  display: flex;
+  color: white;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+  width: 65%;
+  align-items: center;
+  margin-left: 18px;
+  margin-right: 10px;
+}
+.hambmenu h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 8px;
+  color: white;
+}
